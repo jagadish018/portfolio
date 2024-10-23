@@ -1,0 +1,28 @@
+/* App.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom animation for fading in and out */
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0;
+    transform: translateY(-20px); /* Move up at start and end */
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0); /* Center position at middle of the animation */
+  }
+}
+
+/* Tailwind-compatible animation class */
+.animate-fadeInOut {
+  animation: fadeInOut 0s ease-in-out infinite;
+}
+.progressbar-fill {
+  transition: width 0.5s ease-out;
+}
+.image-overlay{
+background-image: linear-gradient(to bottom,rgba(255,255,255,0)60%,rgba(0,0,0,1));
+}
+
