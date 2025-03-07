@@ -33,7 +33,7 @@ export default function Tabs() {
             }`}
             onClick={() => setActiveTab(1)}
           >
-            Tab 1
+            Project 1
           </button>
           <button
             className={`text-white w-[200px] h-[40px] border border-black hover:bg-gray-300 transition-all duration-800 hover:bg-gray-800 ${
@@ -41,7 +41,7 @@ export default function Tabs() {
             }`}
             onClick={() => setActiveTab(2)}
           >
-            Tab 2
+            Project 2
           </button>
           <button
             className={`text-white w-[200px] h-[40px] border border-black rounded-e-full hover:bg-gray-500 transition-all duration-800 hover:bg-gray-800 ${
@@ -49,7 +49,7 @@ export default function Tabs() {
             }`}
             onClick={() => setActiveTab(3)}
           >
-            Tab 3
+            Project 3
           </button>
         </div>
       </div>
