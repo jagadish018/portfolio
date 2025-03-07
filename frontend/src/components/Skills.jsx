@@ -29,7 +29,7 @@ export default function Skills() {
         </div>
         <br />
 
-        <div className="text-white p-[20px]  ">
+        <div className=" w-1/2 text-white  p-[20px]  rounded-[20px] text-justify">
           <p>
             I am skilled in frontend development with expertise in React.js and
             Tailwind CSS, having built projects like a Swiggy clone UI. I have
@@ -37,6 +37,7 @@ export default function Skills() {
             scikit-learn, with a focus on phishing website detection.
             Additionally, I am proficient in data structures and algorithms
             using C++ and have worked on competitive coding problems.
+          
           </p>
         </div>
 
