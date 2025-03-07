@@ -40,13 +40,7 @@ const Landing = () => {
           </h1>
           <br />{" "}
           <p className="text-white ml-[160px]">
-            Hello, I'm Jagadish C K, a passionate and dedicated student
-            currently pursuing my Bachelor's in Engineering at Siddaganga
-            Institute of Technology. With a passion for coding, I am proficient
-            in languages like C++, Python, and well-versed in data structures
-            and algorithms. Eager to contribute innovative solutions and learn
-            in dynamic tech environments. Open to collaborative opportunities in
-            the world of software development.
+          Jagadish C K, an engineering student at Siddaganga Institute of Technology, passionate about coding and proficient in C++, Python, and data structures & algorithms. Eager to contribute innovative solutions and collaborate in software development.
           </p>
         </div>
         <div className="mt-[100px] font-bold text-white text-xl ml-44">

@@ -28,24 +28,24 @@ export default function Tabs() {
         {/* Tab buttons */}
         <div className="bg-black rounded-full w-auto">
           <button
-            className={`text-white w-[200px] h-[40px] border border-black rounded-s-[30px] hover:bg-orange-500 ${
-              activeTab === 1 ? "bg-orange-500" : ""
+            className={`text-white w-[200px] h-[40px] border border-black rounded-s-[30px] hover:bg-gray-300 transition-all duration-800 hover:bg-gray-800 ${
+              activeTab === 1 ? "bg-gray-500" : ""
             }`}
             onClick={() => setActiveTab(1)}
           >
             Tab 1
           </button>
           <button
-            className={`text-white w-[200px] h-[40px] border border-black hover:bg-orange-500 ${
-              activeTab === 2 ? "bg-orange-500" : ""
+            className={`text-white w-[200px] h-[40px] border border-black hover:bg-gray-300 transition-all duration-800 hover:bg-gray-800 ${
+              activeTab === 2 ? "bg-gray-500" : ""
             }`}
             onClick={() => setActiveTab(2)}
           >
             Tab 2
           </button>
           <button
-            className={`text-white w-[200px] h-[40px] border border-black rounded-e-full hover:bg-orange-500 ${
-              activeTab === 3 ? "bg-orange-500" : ""
+            className={`text-white w-[200px] h-[40px] border border-black rounded-e-full hover:bg-gray-500 transition-all duration-800 hover:bg-gray-800 ${
+              activeTab === 3 ? "bg-gray-500" : ""
             }`}
             onClick={() => setActiveTab(3)}
           >
